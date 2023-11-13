@@ -13,6 +13,9 @@
 		E8A618862B00B04600BF31E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A618852B00B04600BF31E3 /* Preview Assets.xcassets */; };
 		E8A618882B00B04600BF31E3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A618872B00B04600BF31E3 /* Persistence.swift */; };
 		E8A6188B2B00B04600BF31E3 /* Drawing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8A618892B00B04600BF31E3 /* Drawing.xcdatamodeld */; };
+		E8A7B98E2B00B0FB00D0910F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B98D2B00B0FB00D0910F /* HomeView.swift */; };
+		E8A7B9902B00B24700D0910F /* DrawingCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B98F2B00B24700D0910F /* DrawingCanvas.swift */; };
+		E8A7B9922B00D6C500D0910F /* PixelArtCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B9912B00D6C500D0910F /* PixelArtCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		E8A618852B00B04600BF31E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8A618872B00B04600BF31E3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E8A6188A2B00B04600BF31E3 /* Drawing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drawing.xcdatamodel; sourceTree = "<group>"; };
+		E8A7B98D2B00B0FB00D0910F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E8A7B98F2B00B24700D0910F /* DrawingCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvas.swift; sourceTree = "<group>"; };
+		E8A7B9912B00D6C500D0910F /* PixelArtCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelArtCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				E8A6187E2B00B04500BF31E3 /* DrawingApp.swift */,
-				E8A618802B00B04500BF31E3 /* ContentView.swift */,
+				E8A7B98D2B00B0FB00D0910F /* HomeView.swift */,
+				E8A7B98F2B00B24700D0910F /* DrawingCanvas.swift */,
+				E8A7B9912B00D6C500D0910F /* PixelArtCanvas.swift */,
 				E8A618822B00B04600BF31E3 /* Assets.xcassets */,
-				E8A618872B00B04600BF31E3 /* Persistence.swift */,
 				E8A618892B00B04600BF31E3 /* Drawing.xcdatamodeld */,
+				E8A618802B00B04500BF31E3 /* ContentView.swift */,
+				E8A618872B00B04600BF31E3 /* Persistence.swift */,
 				E8A618842B00B04600BF31E3 /* Preview Content */,
 			);
 			path = Drawing;
@@ -143,9 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A7B9922B00D6C500D0910F /* PixelArtCanvas.swift in Sources */,
 				E8A6188B2B00B04600BF31E3 /* Drawing.xcdatamodeld in Sources */,
 				E8A618882B00B04600BF31E3 /* Persistence.swift in Sources */,
 				E8A618812B00B04500BF31E3 /* ContentView.swift in Sources */,
+				E8A7B9902B00B24700D0910F /* DrawingCanvas.swift in Sources */,
+				E8A7B98E2B00B0FB00D0910F /* HomeView.swift in Sources */,
 				E8A6187F2B00B04500BF31E3 /* DrawingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
